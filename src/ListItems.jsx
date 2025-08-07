@@ -12,8 +12,8 @@ function ListItems() {
   };
 
   useEffect(() => {
-    console.log("Компонент ListItem обновлён");
-  }, [items]);
+    console.log("Компонент ListItem смонтирован");
+  }, []);
 
   return (
     <div>
